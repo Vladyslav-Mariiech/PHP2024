@@ -5,7 +5,7 @@ let end = prompt("Введите конечное значение промеж�
 start = Number(start);
 end = Number(end);
 
-if (isNaN(start) || isNaN(end) || start > end) 
+if (isNaN(start) || isNaN(end) || start > end) {
      alert{"Введены неверные данные.");
 } else {
     let primeCount = 0;
